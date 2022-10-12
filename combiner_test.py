@@ -16,7 +16,7 @@ sub3['filename'] = "household_cleaners.csv"
 @pytest.fixture(scope='session')
 @dt.working_directory(__file__)
 def df():
-    return pd.read_csv('test.csv')
+    return pd.read_csv('combined.csv')
 
 
 # Test if the combined CSV has all expected column names
