@@ -19,7 +19,7 @@ $ pip install datatest
 ```
 
 ## Usage
-Naming each input file individualy:
+Naming each input file individually:
 ```
 $ python3 csv_combiner.py input_1.csv input_2.csv ... input_n.csv > combined.csv
 ```
@@ -38,9 +38,6 @@ Used to run unit tests
 Allowed the use of more data appropriate testing functions
 
 ## Example
-This example is provided as one of the ways your code should run. It should also be
-able to handle more than two inputs, inputs with different columns, and very large (> 2GB) 
-files gracefully.
 
 Given two input files named `clothing.csv` and `accessories.csv` in a folder named `fixtures`.
 ```
