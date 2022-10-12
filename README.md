@@ -82,3 +82,8 @@ To run the unit test:
 $ pytest combiner_test.py
 ```
 Note: pytest and datatest are required for running the tests.
+
+## Assumptions
+
+- If `filename` is already included as a column in an input file, a new `filename` column will not be created.
+- Since no key is inputted, data will not be merged.
