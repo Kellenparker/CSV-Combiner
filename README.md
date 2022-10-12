@@ -9,14 +9,22 @@ This script takes multiple CSV files and combines them into one.
 ```
 $ pip install pandas
 ```
-- pytest
+- pytest (For testing)
 ```
 $ pip install pytest
 ```
-- datatest
+- datatest (For testing)
 ```
 $ pip install datatest
 ```
+
+## Install
+
+```
+$ git clone https://github.com/Kellenparker/CSV-Combiner.git
+```
+
+Please make sure all dependencies are installed before running.
 
 ## Usage
 Naming each input file individually:
@@ -80,6 +88,10 @@ All file paths are hard coded into the file and will need to be changed dependin
 To run the unit test:
 ```
 $ pytest combiner_test.py
+```
+Or:
+```
+$ python3 -m pytest combiner_test.py
 ```
 Note: pytest and datatest are required for running the tests.
 
