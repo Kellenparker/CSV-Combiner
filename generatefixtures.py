@@ -27,7 +27,7 @@ def main():
         with open(path.join(DIR, 'fixtures', fn), 'w', encoding='utf-8') as fh:
             write_file(
                 csv.writer(fh, doublequote=False, escapechar='\\', quoting=csv.QUOTE_ALL),
-                random.randint(2, 5),
+                random.randint(100, 1000),
                 categories
             )
 
