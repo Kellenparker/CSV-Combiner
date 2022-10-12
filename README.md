@@ -18,7 +18,7 @@ $ pip install pytest
 $ pip install datatest
 ```
 
-## Install
+## Installation
 
 ```
 $ git clone https://github.com/Kellenparker/CSV-Combiner.git
